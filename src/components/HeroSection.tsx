@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
 
 export default function HeroSection() {
   return (
@@ -21,7 +22,17 @@ export default function HeroSection() {
             laudantium, aliquid obcaecati.
           </p>
           <div className="mt-4">
-            <Link href={"/courses"}>Explore Coureses</Link>
+            <Link href={"/courses"}>
+              {" "}
+              <div>
+                <Button
+                  borderRadius="0.95rem"
+                  className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                >
+                  Explore Courses
+                </Button>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
