@@ -1,0 +1,25 @@
+**I actually followed chai with code lol
+
+1) Next js is a react framework
+
+2) Framework means it has those features that are actually missing in react 
+
+3) react wont come with router we need react router but next js comes with router it is a file system router
+
+4) core nextjs features
+
+a) routing
+b) pre rendering
+c) api end points
+
+
+
+
+b) pre rendering
+
+happen in two different time 1) build time 2) generate html ar request time
+
+
+c) api end points
+
+for react we needed node or express
