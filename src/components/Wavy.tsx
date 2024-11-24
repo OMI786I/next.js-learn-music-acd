@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { WavyBackground } from "./ui/wavy-background";
+import { Avatar } from "./Avatar";
 
 export function Wavy() {
   return (
@@ -11,6 +12,9 @@ export function Wavy() {
         <p className="mt-3">
           Discover the talented profesionals who will guide your musical journey
         </p>
+        <div>
+          <Avatar />
+        </div>
       </WavyBackground>
     </div>
   );
