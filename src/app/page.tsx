@@ -2,7 +2,9 @@ import ChooseUs from "@/components/ChooseUs";
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import TestimonialCards from "@/components/TestimonialCards";
+
 import UpcomingWebiners from "@/components/UpcomingWebiners";
+import { Wavy, WavyBackgroundDemo } from "@/components/Wavy";
 
 export default function Home() {
   return (
@@ -13,6 +15,7 @@ export default function Home() {
         <ChooseUs />
         <TestimonialCards />
         <UpcomingWebiners />
+        <Wavy />
       </main>
     </>
   );
